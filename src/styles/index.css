@@ -3,31 +3,50 @@
     width: 130px;
     border-radius: 20px;
     padding: 5px;
+    margin: 0 auto;
     
     
+}
+
+.myDiv{
+    width: 130px;
+    margin: 0 auto;
 }
 
 .circle{
     width: 100px;
     height: 100px;
+   
 }
 
-.red{
+.colorRed{
 
     background-color: red;
 }
 
-.yellow{
+.colorYellow{
 
     background-color: yellow;
 }
 
-.green{
+.colorGreen{
     background-color: green;
 }
+.turnOnRed{
 
-.turnOn{
+    box-shadow: 0px 0px 9px 4px red;
+
+}
+
+
+.turnOnYellow{
 
     box-shadow: 0px 0px 9px 4px yellow;
 
 }
+.turnOnGreen{
+
+    box-shadow: 0px 0px 9px 4px green;
+
+}
+

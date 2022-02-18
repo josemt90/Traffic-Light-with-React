@@ -4,25 +4,24 @@ const TrafficLight = () => {
 	const [light, setLight] = useState("");
 
 	return (
-		<div>
-			<div className="bg-dark m-2 traffic ">
+		<div className="myDiv">
+			<div className=" bg-dark m-2 traffic ">
 				<div
 					onClick={() => setLight("red")}
-					className={`circle red rounded-circle m-2 ${
-						light === "red" ? "turnOn" : ""
+					className={`circle colorRed rounded-circle m-2 ${
+						light === "red" ? "turnOnRed" : ""
 					} `}></div>
 				<div
 					onClick={() => setLight("yellow")}
-					className={`circle yellow rounded-circle m-2 ${
-						light === "yellow" ? "turnOn" : ""
+					className={`circle colorYellow rounded-circle m-2 ${
+						light === "yellow" ? "turnOnYellow" : ""
 					} `}></div>
 				<div
 					onClick={() => setLight("green")}
-					className={`circle green rounded-circle m-2 ${
-						light === "green" ? "turnOn" : ""
+					className={`circle colorGreen rounded-circle m-2 ${
+						light === "green" ? "turnOnGreen" : ""
 					} `}></div>
 			</div>
-			<button className="button btn-succes">Altern color</button>
 		</div>
 	);
 };
